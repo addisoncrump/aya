@@ -64,6 +64,7 @@ fn main() -> Result<()> {
     const C_BPF: &[(&str, bool)] = &[
         ("ext.bpf.c", false),
         ("iter.bpf.c", true),
+        ("ksym.bpf.c", true),
         ("main.bpf.c", false),
         ("multimap-btf.bpf.c", false),
         ("enum_signed_32_checked_variants_reloc.bpf.c", true),

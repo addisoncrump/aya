@@ -38,6 +38,8 @@ bpf_file!(
     TEXT_64_64_RELOC => "text_64_64_reloc.o",
     VARIABLES_RELOC => "variables_reloc.bpf.o",
 
+    KSYM => "ksym.bpf.o",
+
     BPF_PROBE_READ => "bpf_probe_read",
     LOG => "log",
     MAP_TEST => "map_test",
